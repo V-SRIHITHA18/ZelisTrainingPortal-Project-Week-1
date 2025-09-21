@@ -1,0 +1,26 @@
+﻿@page
+@model ZelisTrainingRazorWebApp.Pages.Trainees.CreateModel
+@using ZelisTrainingLibrary;
+@{
+}
+<h2>Create New Trainee</h2>
+<form method="post">
+    <label asp-for="Trainee.TrainingId">Training ID:</label>
+    <input asp-for="Trainee.TrainingId" class="form-control" />
+    <hr />
+    <label asp-for="Trainee.EmpId"> Emp Id:</label>
+    <input asp-for="Trainee.EmpId" class="form-control"/>
+    <hr>
+    <label asp-for="Trainee.Status">Status:</label>
+    <input asp-for="Trainee.Status" class="form-control" />
+    
+
+    <hr />
+    <input type="submit" value="Save" />
+
+
+
+</form>
+
+
+

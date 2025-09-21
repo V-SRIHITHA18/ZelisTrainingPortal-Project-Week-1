@@ -1,0 +1,22 @@
+﻿@page "{tid}";
+@model ZelisTrainingRazorWebApp.Pages.Technologies.DetailsModel
+@using ZelisTrainingLibrary;
+@{
+}
+<h2>Technology  Details</h2>
+<label asp-for="Technology.TechnologyId">Technology Id:</label>
+@Model.Technology.TechnologyId
+<br />
+<label asp-for="Technology.TechName">Tech Name :</label>
+@Model.Technology.TechName
+<br />
+<label asp-for="Technology.TechLevel">TechLevel :</label>
+@Model.Technology.TechLevel
+<br />
+<label asp-for="Technology.Duration">Duration :</label>
+@Model.Technology.Duration
+
+
+<br />
+<a href="/Technologies/Index">Back to List</a>
+

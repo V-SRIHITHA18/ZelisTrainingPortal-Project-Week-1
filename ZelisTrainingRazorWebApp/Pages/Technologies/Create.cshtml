@@ -1,0 +1,27 @@
+﻿@page
+@model ZelisTrainingRazorWebApp.Pages.Technologies.CreateModel
+@using ZelisTrainingLibrary;
+@{
+}
+<h2>Add New Technology</h2>
+<form method="post">
+    <label asp-for="Technology.TechnologyId">Technology ID:</label>
+    <input asp-for="Technology.TechnologyId" class="form-control" />
+    <hr />
+    <label asp-for="Technology.TechName"> Technology Name:</label>
+    <input asp-for="Technology.TechName" class="form-control" />
+    <hr>
+    <label asp-for="Technology.TechLevel">Tech Level ('B','I','A'):</label>
+    <input asp-for="Technology.TechLevel" class="form-control" />
+    <hr />
+    <label asp-for="Technology.Duration">Duration:</label>
+    <input asp-for="Technology.Duration" class="form-control" />
+   
+    <hr />
+    <input type="submit" value="Save" />
+
+
+
+</form>
+
+
