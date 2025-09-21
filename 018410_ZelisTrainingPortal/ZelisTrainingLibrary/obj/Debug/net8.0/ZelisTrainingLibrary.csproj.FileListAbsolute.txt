@@ -1,0 +1,12 @@
+C:\Day 1\Day 4\ZelisTrainingPortal\ZelisTrainingLibrary\bin\Debug\net8.0\ZelisTrainingLibrary.deps.json
+C:\Day 1\Day 4\ZelisTrainingPortal\ZelisTrainingLibrary\bin\Debug\net8.0\ZelisTrainingLibrary.dll
+C:\Day 1\Day 4\ZelisTrainingPortal\ZelisTrainingLibrary\bin\Debug\net8.0\ZelisTrainingLibrary.pdb
+C:\Day 1\Day 4\ZelisTrainingPortal\ZelisTrainingLibrary\obj\Debug\net8.0\ZelisTrainingLibrary.csproj.AssemblyReference.cache
+C:\Day 1\Day 4\ZelisTrainingPortal\ZelisTrainingLibrary\obj\Debug\net8.0\ZelisTrainingLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Day 1\Day 4\ZelisTrainingPortal\ZelisTrainingLibrary\obj\Debug\net8.0\ZelisTrainingLibrary.AssemblyInfoInputs.cache
+C:\Day 1\Day 4\ZelisTrainingPortal\ZelisTrainingLibrary\obj\Debug\net8.0\ZelisTrainingLibrary.AssemblyInfo.cs
+C:\Day 1\Day 4\ZelisTrainingPortal\ZelisTrainingLibrary\obj\Debug\net8.0\ZelisTrainingLibrary.csproj.CoreCompileInputs.cache
+C:\Day 1\Day 4\ZelisTrainingPortal\ZelisTrainingLibrary\obj\Debug\net8.0\ZelisTrainingLibrary.dll
+C:\Day 1\Day 4\ZelisTrainingPortal\ZelisTrainingLibrary\obj\Debug\net8.0\refint\ZelisTrainingLibrary.dll
+C:\Day 1\Day 4\ZelisTrainingPortal\ZelisTrainingLibrary\obj\Debug\net8.0\ZelisTrainingLibrary.pdb
+C:\Day 1\Day 4\ZelisTrainingPortal\ZelisTrainingLibrary\obj\Debug\net8.0\ref\ZelisTrainingLibrary.dll
