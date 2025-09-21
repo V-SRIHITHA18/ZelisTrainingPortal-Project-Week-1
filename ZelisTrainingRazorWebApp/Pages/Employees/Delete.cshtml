@@ -1,0 +1,27 @@
+﻿@page "{eid}"
+@model ZelisTrainingRazorWebApp.Pages.Employees.DeleteModel
+@using ZelisTrainingLibrary;
+@{
+}
+<h2>Delete Employee</h2>
+<label asp-for="Employee.EmpId">Emp Id: </label>
+@Model.Employee.EmpId
+<br />
+<label asp-for="Employee.EmpName">Emp Name: </label>
+@Model.Employee.EmpName
+<br />
+<label asp-for="Employee.Designation">Designation: </label>
+@Model.Employee.Designation
+<br />
+<label asp-for="Employee.Email">Email: </label>
+@Model.Employee.Email
+<br />
+<label asp-for="Employee.Phone">Phone: </label>
+@Model.Employee.Phone
+<br />
+<form method="post">
+    <input type="submit" value="Delete" />
+</form>
+
+<a href="/Employees/Index">Back to List</a>
+

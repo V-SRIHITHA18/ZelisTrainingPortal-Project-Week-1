@@ -1,0 +1,43 @@
+﻿@page
+@model ZelisTrainingRazorWebApp.Pages.Trainings.IndexModel
+@using ZelisTrainingLibrary;
+@using ZelisTrainingLibrary.Models
+@{
+}
+<a class="nav-link text-dark" asp-area="" asp-page="/Trainings/Create">Create Trainings</a>
+<br />
+<h2>List of Trainings</h2>
+<table border="1" class="table table-striped">
+    <thead>
+        <tr>
+            <th>TrainingId </th>
+            <th>TrainerId</th>
+            <th>TechnologyId</th>
+            <th>StartDate</th>
+            <th>EndDate</th>
+
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Training training in Model.trainings)
+        {
+            <tr>
+                <td>@training.TrainingId</td>
+                <td>@training.TrainerId</td>
+                <td>@training.TechnologyId</td>
+                <td>@training.StartDate</td>
+                <td>@training.EndDate</td>
+
+                <td><a href="/Trainings/Details/@training.TrainingId">Details</a></td>
+                <td><a href="/Trainings/Edit/@training.TrainingId">Edit</a></td>
+                <td><a href="/Trainings/Delete/@training.TrainingId">Delete</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
